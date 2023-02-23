@@ -7,9 +7,8 @@ body {
 h2 {
   font-size: 26px;
   font-weight: 400;
-  margin: 0 10px 10px 10px;
+  margin: 10px 10px 0px 10px;
   text-align: center;
-  padding-top: 10px;
 }
 
 h3 {
@@ -138,11 +137,10 @@ footer p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0 20px;
   }
   
-  header nav {
-    padding-top: 10px;
-  }
 
   form {
     display: flex;
@@ -162,12 +160,22 @@ footer p {
     justify-content: center;
   }
 
+  .logo {
+    font-size: 30px;
+    height: 30px;
+  }
   .group {
+    padding-top: 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-flow: row nowrap;
     align-items: center;
+  }
+
+  .item {
+    flex: 1;
+    margin: 20px;
   }
 
   .item-double {
