@@ -46,6 +46,7 @@ main img {
 
 .item-double {
   flex: 2;
+
 }
 
 /* -------  Navigation ------- */
@@ -89,11 +90,11 @@ header nav ul li a:hover {
 
 /* -------  Search Form ------- */
 form {
-  border: 2px solid #ff385c;
-  margin: 0px 20px 20px 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border: 2px solid #ff385c;
+  
 }
 
 form label {
@@ -108,7 +109,7 @@ form div {
 form select,
 form input {
   margin-bottom: 20px;
-  width: 180px;
+  width: 65%;
 }
 
 form button {
@@ -144,17 +145,17 @@ footer p {
     padding: 0px 20px 0 20px;
   }
   
-
   form {
-    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   form select,
   form input {
     margin-bottom: 0px;
+    width: 100%;
   }
 
   form div {
@@ -167,12 +168,9 @@ footer p {
     font-size: 30px;
     height: 30px;
   }
+
   .group {
-    padding-top: 0px;
-    display: flex;
     flex-direction: row;
-    justify-content: center;
-    flex-flow: row nowrap;
     align-items: center;
   }
 
