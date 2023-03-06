@@ -187,7 +187,7 @@ footer p {
     justify-content: center;
     flex-direction: column;
   }
-  .host{
+  #host{
     flex-direction: column;
     justify-content: center;
   }
